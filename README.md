@@ -16,7 +16,7 @@ Supports basic arithmetic operations and some extra features like **percent, sig
 ---
 
 ## How to Run
-[Live demo](https://68b353abd6dac4319f70592b--sweet-zuccutto-7ec59f.netlify.app/) 
+[Live demo](https://68b356ff4e7aa490e02890f4--vocal-pavlova-98ec8b.netlify.app/) 
 
 ---
 
