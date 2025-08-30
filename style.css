@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    align-items: center;
+    background-color: #1a1919;
+}
+.header {
+    text-align: center;
+    margin-top: 25px;
+    background: linear-gradient(135deg, #f59300, #5c5c5c);
+    text-shadow: 2px 2px 4px rgba(248, 219, 106, 0.5);
+    background-clip: text;            
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;  
+    font-size: x-large;    
+}
+.container{
+    width: 350px;
+    background-color: #2c2a2a;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: #1c1a1a;
+    color: white;
+    text-align: left;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(235, 165, 3, 0.7);
+    border: 1px solid rgba(235, 165, 3, 0.7);
+}
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    width: 100%;
+}
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;  
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #1f1e1e; 
+  color: white;
+  margin: 5px;
+  transition: transform 0.1s ease;
+}
+.firstbtn {
+    background-color: #585858; 
+}
+.operatorbtn {
+    background-color: rgb(235, 165, 3); 
+}
+button:active {
+    transform: scale(0.98);
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(235, 165, 3, 0.7);
+    border: 1px solid rgba(235, 165, 3, 0.7);
+}
+.operatorbtn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(169, 169, 169);
+    border: 1px solid  #1a1919;
+}
+#delete {
+    display: none;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    height: auto;
+    padding: 15px;
+  }
+
+  input {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+  }
+}
+
